@@ -37,9 +37,9 @@
 
 .content-crew{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 8em;
+    gap: 11em;
     margin-bottom: 125px;
 }
 
@@ -102,4 +102,44 @@
 
 @media (max-width:375px) {
     
+    .header{
+        flex-direction: column;
+        margin-top: 71px;
+        margin-left: 12px;
+        margin-bottom: 30px;
+    }
+
+    .header-title{
+        letter-spacing: -0.045em;
+        margin-bottom: 38px;
+        margin-right: 85px;
+    }
+
+    .header-content p{
+        width: 333px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .content-crew{
+        flex-direction: column;
+        gap: 5em;
+        margin-left: 12px;
+    }
+    
+    .crew{
+        margin-bottom: 40px;
+    }
+
+    .middle{
+        margin-top: 0;
+    }
+
+    .footer{
+        margin-left: 35px;
+    }
+
+    .footer p{
+        font-size: 11px;
+    }
 }
