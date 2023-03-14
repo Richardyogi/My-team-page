@@ -34,3 +34,72 @@
     font-weight: 400;
     line-height: 27px;
 }
+
+.content-crew{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 8em;
+    margin-bottom: 125px;
+}
+
+.crew{
+    width: 225px;
+    height: 341px;
+}
+
+.photo-title{
+    display: flex;
+}
+
+.photo-title p{
+    width: 125px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.9px;
+    writing-mode: vertical-lr;
+
+}
+
+.side-image{
+    width: 238px;
+    height: 341px;
+}
+
+.center-image{
+    width: 238px;
+    height: 347px;
+}
+
+.crew h3{
+    width: 150px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.middle{
+    margin-top: 70px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    color:#A9A9A9;
+    width: 287px;
+    height: 17px;
+}
+
+@media (max-width:375px) {
+    
+}
